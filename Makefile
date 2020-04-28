@@ -8,7 +8,8 @@
 
 # Program ESP32, use CHIP=esp32, BOARD=heltec_wifi_kit_32 
 
-
+g5can:	g5can.cpp
+	g++ -g -o $@ $<
 #BOARD=nodemcu
 BOARD=generic
 CHIP=esp8266
